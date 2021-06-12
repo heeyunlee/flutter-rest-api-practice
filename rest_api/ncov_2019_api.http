@@ -1,0 +1,7 @@
+POST {{baseUrl}}/token
+Authorization: Basic {{authorization}}
+
+###
+GET {{baseUrl}}/cases
+Accept: application/json
+Authorization: Bearer {{accessToken}}
